@@ -202,7 +202,9 @@ width: 74%;
 
 .contain{
 margin-top: 35px;   
-	border-top: 2px solid #cecece;}
+	border-top: 2px solid #cecece;
+	padding-bottom: 50px;
+}
 
 
 .lorem-head{
@@ -225,3 +227,76 @@ margin-top: 35px;
 /*Lorem content ends here*/
 /*Main ends here*/
 
+/*FOOTER Starts here*/
+
+
+.footer-nav li {
+	    display: inline-block;
+    position: relative;
+    left: 27%;
+    padding-right: 93px;
+}
+
+
+
+.footer-content{
+	display: inline-block;
+}
+
+
+.footer-icons{
+	display: inline-block;
+    position: relative;
+    left: 13%;
+    vertical-align: top;
+        margin-top: 55px;
+
+}
+
+.nav-icons li{
+	display: inline-block;
+	padding-right: 14px;
+}
+
+.footer-head{
+font-family: sans-serif;
+    font-size: 21px;
+    padding-bottom: 18px;
+
+    color: #909090;
+}
+
+.footer-content p{
+font-family: sans-serif;
+    font-size: 17px;
+    padding-bottom: 9px;
+    color: #727473;
+
+}
+
+
+
+.nav-icons ul{
+
+}
+
+.nav-icons p{
+	margin-top: 41px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #909090;
+}
+
+.nav-icons a{
+    color: #28282a;
+    padding: 16px 18px;
+    border-radius: 29px;
+    font-size: 19px;
+    background-color: #696b6a;
+}
+
+footer{
+	padding-top: 30px;
+	background-color:#262a2d;
+	padding-bottom: 18px;
+}
