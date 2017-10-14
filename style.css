@@ -87,7 +87,7 @@ table {
 
 .btn{
 	background-color: #e06c6f;
-	border: 0;
+	border:1px solid #e06c6f;
     color: #fff;
     padding: 5px 15px;
     border-radius: 3px;
@@ -95,6 +95,12 @@ table {
 
 }
 
+.btn:hover{
+	color: #e06c6f;
+	background-color:#fff;
+	transition: .5s;
+	border: 1px solid #e06c6f; 
+}
 
 header{
 	padding-bottom: 11px;
@@ -132,3 +138,90 @@ font-family: sans-serif;
 }
 
 /*Banner Parts ends*/
+
+/*banner-img content starts from here*/
+
+.images-content{
+
+}
+
+
+.img-content{
+font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 49px;
+    font-weight: 100;
+    color: #353535;
+    letter-spacing: 1px;
+}
+
+.img-para{
+	text-align: center;
+    padding-top: 22px;
+    margin: 0 auto;
+    width: 640px;
+    padding-bottom: 50px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #8a8a8a;
+    line-height: 19px;
+}
+
+/*Banner img content ends here*/
+
+.images-photo{
+margin: 0 auto;
+    width: 920px;
+}
+
+
+.images-photo img{
+	    padding: 38px;
+    border-radius: 123px;
+}
+
+/*Lorem-content starts here*/
+
+.lorem-content-image{
+    padding: 61px 205px 30px;
+
+}
+
+
+.lorem-image{
+display: inline-block;
+}
+
+.lorem-text{
+display: inline-block;
+width: 74%;
+    vertical-align: top;
+    padding-left: 17px;
+}
+
+.contain{
+margin-top: 35px;   
+	border-top: 2px solid #cecece;}
+
+
+.lorem-head{
+	font-family: sans-serif;
+    font-size: 23px;
+    padding-bottom: 15px;
+    font-weight: 100;
+    color: #3f3f3f;
+}
+
+.lorem-para{
+	    font-family: sans-serif;
+    letter-spacing: 1px;
+    color:#656161;
+    line-height: 22px;
+}
+
+
+
+/*Lorem content ends here*/
+/*Main ends here*/
+
