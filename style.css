@@ -46,3 +46,59 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+/*MY CODE START FROM HERE*/
+/*HEADER PART*/
+.logo{
+	display: inline-block;
+}
+
+.logo img{
+	padding-left: 118px;
+    padding-top: 12px;
+}
+
+
+.navigation{
+	display: inline-block;
+	float: right;
+    padding-top: 31px;
+    padding-right: 108px;
+}
+
+
+.navigation li{
+	display: inline-block;
+}
+
+.navigation li a{
+	text-decoration: none;
+	padding: 21px;
+	color: #111;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.fa-user{
+	padding-right: 6px;
+}
+
+
+.btn{
+	background-color: #e06c6f;
+	border: 0;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+
+header{
+	padding-bottom: 11px;
+}
+
+/*HEADER PARTS ENDS HERE*/
+
